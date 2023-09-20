@@ -32,6 +32,7 @@ function CSVReader({ onDataUpdate }) {
         
         // Pass the structured data to the parent component
         onDataUpdate(dataObjects);
+        console.log(csvData);
       },
     });
   };
